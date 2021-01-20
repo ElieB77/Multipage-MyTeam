@@ -1,0 +1,44 @@
+footer {
+  width: 100vw;
+  background: #002529;
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+footer .footer-logo {
+  width: 6rem;
+  padding-top: 5em;
+  margin-bottom: 1.7em;
+}
+
+footer .nav-footer {
+  margin-bottom: 1.7em;
+}
+
+footer .nav-footer a:hover {
+  color: #f67e7e;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+footer .footer-contact-details {
+  margin-bottom: 2em;
+}
+
+footer .footer-social-media {
+  margin-bottom: .5em;
+}
+
+footer .footer-social-media img {
+  margin: 0 .5em 0 .5em;
+  cursor: pointer;
+  padding-top: .1em;
+}
+
+footer .footer-social-media img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+/*# sourceMappingURL=footer.css.map */

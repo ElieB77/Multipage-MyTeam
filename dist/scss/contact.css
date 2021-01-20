@@ -1,0 +1,86 @@
+.contact-container {
+  margin-top: 10em;
+}
+
+.contact-container .contact-features__container {
+  margin-top: 2.5em;
+}
+
+.contact-container .contact-features__container .contact-features {
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+.contact-container .contact-features__container .contact-features .contact-features__img1 {
+  margin-left: 1.95em;
+}
+
+.contact-container .contact-features__container .contact-features img {
+  margin: 0 1.5em 0 1.5em;
+  max-width: 100%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.contact-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3.5em;
+}
+
+.contact-container form input {
+  margin: 0 1.5em 2em 1.5em;
+  background-color: #014e56;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.9);
+  padding: 0 1em;
+  color: white;
+  font-size: 15px;
+}
+
+.contact-container form .input-error {
+  border-bottom: 1.5px solid #f67e7e;
+}
+
+.contact-container form .input-valid {
+  border-bottom: 1.5px solid #79c8c7;
+}
+
+.contact-container form textarea {
+  background-color: #014e56;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.9);
+  color: white;
+  margin: 0 1.5em 2em 1.5em;
+  padding: 1em;
+  resize: none;
+}
+
+.contact-container .contact-bg__mobile {
+  float: right;
+  margin-right: -6.4em;
+  margin-top: -1.5em;
+}
+
+.contact-footer {
+  margin-top: -7.3em;
+  position: absolute;
+}
+/*# sourceMappingURL=contact.css.map */

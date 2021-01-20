@@ -1,0 +1,47 @@
+@import './base';
+
+.nav-btn {
+    border: solid 2px $white;
+    padding: .7em 2em;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: .5em;
+
+    &:hover {
+        background-color: $white;
+        color: $dark-green;
+    }
+}
+
+.home-container-4__btn {
+    border: solid 2px $sacramento-state-green;
+    padding: .7em 2em;
+    border-radius: 30px;
+    color: $sacramento-state-green;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+
+    &:hover {
+        background-color: $sacramento-state-green;
+        color: white;
+        @include transition-ease;
+    }
+}
+
+.form-btn {
+    border-radius: 30px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    color: $jungle-green;
+    background-color: $white;
+    padding: .7em .5em;
+    text-align: center;
+    font-weight: 200;
+    font-family: $main-font;
+    width: 7em;
+    font-size: 18px;
+    margin-left: 1em;
+    cursor: pointer;
+}

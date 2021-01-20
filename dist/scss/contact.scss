@@ -1,0 +1,74 @@
+@import './base';
+
+.contact-container {
+    margin-top: 10em;
+
+    .contact-features__container {
+        margin-top: 2.5em;
+
+        .contact-features {
+            height: 5rem;
+            display: flex;
+            align-items: center;
+            margin-bottom: 1em;
+            
+            .contact-features__img1 {
+                margin-left: 1.95em;
+            }
+
+            img {
+                margin: 0 1.5em 0 1.5em;
+                max-width: 100%;
+                align-self: center;
+            }
+        }
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 3.5em;
+
+        input {
+            margin: 0 1.5em 2em 1.5em;
+            background-color: $midnight-green;
+            outline: none;
+            border: none;
+            border-bottom: 1.5px solid rgba($white, .9);
+            padding: 0 1em;
+            color: $white;
+            font-size: 15px;
+        }
+
+        .input-error {
+            border-bottom: 1.5px solid $error-color;
+        }
+
+        .input-valid {
+            border-bottom: 1.5px solid $rapture-blue;
+        }
+
+        textarea {
+            background-color: $midnight-green;
+            outline: none;
+            border: none;
+            border-bottom: 1.5px solid rgba($white, .9);
+            color: $white;
+            margin: 0 1.5em 2em 1.5em;
+            padding: 1em;
+            resize: none;
+        }
+    }
+
+    .contact-bg__mobile {
+        float: right;
+        margin-right: -6.4em;
+        margin-top: -1.5em;
+    }
+}
+
+.contact-footer {
+    margin-top: -7.3em;
+    position: absolute;
+}

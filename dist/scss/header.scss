@@ -1,0 +1,81 @@
+@import './base';
+
+header {
+    background: $midnight-green;
+    padding: 3em 1.5em;
+    display: flex;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    position: absolute;
+
+    .logo {
+        width: 8rem;
+    }
+
+    .hamburger-btn {
+        position: absolute;
+        right: 0;
+        padding: 1em 1.5em;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .5);
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        visibility: hidden;
+        z-index: 100;
+        overflow-x: hidden;
+        perspective: 500rem;
+        
+
+        .navbar {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 62vw;
+            height: 100vh;
+            background: $police-blue;
+            transform: translateX(100vw);    
+            @include transition-ease;
+            z-index: 10;
+            perspective: 500rem;
+
+            .close-nav-btn {
+                float: right;
+                padding: 3.5em 1.5em;
+                cursor: pointer;
+            }
+
+            ul {
+                padding: 8em 3em;
+            }
+
+            li {
+                margin-bottom: 1.8em ;
+            }
+
+            .bg-nav-mobile {
+                position: absolute;
+                right: -6.5rem;
+                bottom: 0;
+            }
+        }
+    }
+
+    .nav-menu__lg {
+        display: none;
+    }
+
+    .nav-btn-lg {
+        display: none;
+    }
+
+    
+}

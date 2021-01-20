@@ -1,0 +1,288 @@
+h1 {
+  font-family: "Livvic", sans-serif;
+  line-height: 2.5rem;
+}
+
+.h1-intro {
+  color: white;
+  font-size: 40px;
+  width: 15rem;
+  margin: 0 auto .5em auto;
+  overflow: hidden;
+}
+
+.h1-intro span {
+  color: #f67e7e;
+}
+
+.home-container-2__h1 {
+  color: white;
+  line-height: 2rem;
+  overflow: hidden;
+  font-size: 32px;
+}
+
+.home-container-3__h1 {
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  width: 20rem;
+  margin: 0 auto;
+  padding-top: 1em;
+}
+
+.home-container-3__h1 span {
+  color: #79c8c7;
+}
+
+.home-container-4__h1 {
+  color: #012f34;
+  font-size: 32px;
+  line-height: 2rem;
+  margin-bottom: 1.1em;
+  overflow: hidden;
+}
+
+.about-intro__h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-bottom: .5em;
+  overflow: hidden;
+}
+
+.about-container-2__h1 {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin-top: -.5em;
+  margin-bottom: 1.5em;
+}
+
+.about-container-2-customers__h1 {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+  margin-top: -.6em;
+}
+
+.about-container-3__h1 {
+  color: #012f34;
+  font-size: 32px;
+  line-height: 2rem;
+  margin-bottom: 1.1em;
+  overflow: hidden;
+}
+
+.contact-container__h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-bottom: .5em;
+  overflow: hidden;
+}
+
+h2 {
+  font-family: "Livvic", sans-serif;
+}
+
+.card-success-story__h2 {
+  font-size: 18px;
+  color: #79c8c7;
+  margin-bottom: .3em;
+}
+
+.directors-card__h2 {
+  font-size: 18px;
+  color: #79c8c7;
+  margin-bottom: .2em;
+}
+
+.directors-back-card__h2 {
+  color: #79c8c7;
+  font-size: 18px;
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
+.contact-container__h2 {
+  font-size: 32px;
+  color: #f67e7e;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Livvic", sans-serif;
+}
+
+.cards-features__h3 {
+  color: #f67e7e;
+  margin-bottom: .5em;
+  font-size: 18px;
+}
+
+.card-success-story__h3 {
+  font-size: 13px;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.directors-card__h3 {
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: -20em;
+}
+
+.error-message__name {
+  color: #f67e7e;
+  font-size: 10px;
+  font-family: "Livvic", sans-serif;
+  font-style: italic;
+  padding-left: 3.7em;
+  -webkit-transform: translateY(-2em);
+          transform: translateY(-2em);
+  display: none;
+}
+
+.error-message__email {
+  color: #f67e7e;
+  font-size: 10px;
+  font-family: "Livvic", sans-serif;
+  font-style: italic;
+  padding-left: 3.7em;
+  -webkit-transform: translateY(-2em);
+          transform: translateY(-2em);
+  display: none;
+}
+
+.error-message__message {
+  color: #f67e7e;
+  font-size: 10px;
+  font-family: "Livvic", sans-serif;
+  font-style: italic;
+  padding-left: 3.7em;
+  -webkit-transform: translateY(-2em);
+          transform: translateY(-2em);
+  display: none;
+}
+
+.error-message-2 {
+  color: #f67e7e;
+  font-size: 10px;
+  font-family: "Livvic", sans-serif;
+  font-style: italic;
+  -webkit-transform: translateY(-2em);
+          transform: translateY(-2em);
+  padding-left: 3.7em;
+  display: none;
+}
+
+p {
+  font-family: "Livvic", sans-serif;
+  color: white;
+  line-height: 2rem;
+}
+
+.p-intro {
+  font-weight: 300;
+  width: 21rem;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.cards-features__p {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7rem;
+  font-size: 15px;
+}
+
+.card-success-story__p {
+  font-size: 15px;
+  line-height: 1.7rem;
+  margin-top: -1.6em;
+  margin-bottom: 1.5em;
+}
+
+.footer-contact__p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.7rem;
+}
+
+.footer-copyright {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.about-intro__p {
+  font-size: 15px;
+  color: white;
+  width: 20rem;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: .5em;
+}
+
+.directors-back-card__p {
+  font-size: 15px;
+  line-height: 1.7rem;
+  width: 15rem;
+  margin: 0 auto;
+  margin-bottom: 1.3em;
+}
+
+.contact-features__p {
+  font-size: 18px;
+  width: 14rem;
+  line-height: 1.7rem;
+}
+
+.input-p__name {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-left: 2.5em;
+}
+
+.input-p__email {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-left: 2.5em;
+}
+
+.input-p__message {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-left: 2.5em;
+}
+
+.input-p__title {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-left: 2.5em;
+}
+
+.input-p__company {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-left: 2.5em;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Livvic", sans-serif;
+  color: white;
+}
+
+.footer-nav-link {
+  font-size: 15px;
+  margin: 0 .8em 0 .8em;
+}
+
+ul {
+  list-style-type: none;
+}
+/*# sourceMappingURL=typography.css.map */

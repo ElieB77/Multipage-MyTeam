@@ -1,0 +1,107 @@
+@import './base';
+
+.home-container {
+    margin-top: 10em;
+    width: 100vw;
+
+
+    .home-intro-text {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 0 1em;
+        margin-bottom: 7em;
+    }
+
+    .bg-home-mobile {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-container__2 {
+        background-color: $sacramento-state-green;
+        z-index: 0;
+        padding-bottom: 1em;
+
+        .home-container-2__heading {
+            width: 15rem;
+            padding: 4em 0 0 1.5em;
+            
+            hr {
+                height: .2rem;
+                width: 2.8rem;
+                background-color: $light-coral;
+                border: none;
+                margin-bottom: 2em;
+            }
+        }
+
+        .home-container-2__img {
+            position: absolute;
+            top: 37.5rem;
+            right: -6.3rem;
+        }
+
+        .home-container-2-cards__container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: 4em 1em 0 1.5em;
+
+            .cards-features {
+                margin: 0 .3em 3em .3em;
+
+                img {
+                    margin-bottom: 1em;
+                }
+            }
+        }
+    }
+
+    .home-container__3 {
+        background-color: $jungle-green;
+        padding-bottom: 7.3em;
+
+        .home-container-3__cards {
+            margin: 3em 1.5em 0 1.5em;
+            text-align: center;
+
+            .card-success-stories {
+                margin-bottom: 3em;
+
+                .card-success-story__img {
+                    max-width: 100%;
+                    width: 4rem;
+                    border-radius: 50%;
+                    border: solid 3px $light-blue;
+                }
+            }
+            .home-container-3-img__2 {
+                position: absolute;
+                right: 0;
+                padding-top: 1em;
+            }
+        }
+    }
+
+    .home-container__4 {
+        background-color: $light-coral;
+        height: 18.3rem;
+        overflow: hidden;
+
+        .home-container-4__text {
+            width: 15rem;
+            text-align: center;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 5em 0 1em 0;
+        }
+
+        .home-container__img {
+            margin-top: -2.8em;
+        }
+    }
+}

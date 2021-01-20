@@ -1,0 +1,42 @@
+@import './base';
+
+footer {
+    width: 100vw;
+    background: $dark-green;
+    text-align: center;
+    padding-bottom: 3em;
+
+    .footer-logo {
+        width: 6rem;
+        padding-top: 5em;
+        margin-bottom: 1.7em;
+    }
+
+    .nav-footer {
+        margin-bottom: 1.7em;
+
+        a:hover {
+            color: $light-coral;
+            @include transition-ease;
+        }
+    }
+
+    .footer-contact-details {
+        margin-bottom: 2em;
+    }
+
+    .footer-social-media {
+        margin-bottom: .5em;
+
+        img {
+            margin: 0 .5em 0 .5em;
+            cursor: pointer;
+            padding-top: .1em;
+
+            &:hover {
+                transform: scale(1.1);
+                @include transition-ease;
+            }
+        }
+    }
+}

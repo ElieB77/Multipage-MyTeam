@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" /> 
+    <!-- files -->
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="main.js" defer></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>My Team | Contact</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <img class="logo" src="images/logo.svg">
+        </a>
+        <div class="hamburger-btn">
+            <img src="images/icon-hamburger.svg" alt="hamburger button">
+        </div>
+        <div class="nav-menu">
+             <nav class="navbar">
+                <img src="images/icon-close.svg" alt="Close button" class="close-nav-btn">
+                    <ul>
+                        <li><a class="nav-link" href="index.html">home</a></li>
+                        <li><a class="nav-link" href="about.html">about</a></li>
+                        <li><a class="nav-link nav-btn" href="contact.html">contact us</a></li>
+                    </ul>
+                        <img src="images/bg-pattern-about-1-mobile-nav-1.svg" alt="" class="bg-nav-mobile">
+            </nav>
+        </div>
+        <div class="nav-menu__lg">
+                <a class="nav-link-lg" href="index.html">home</a>
+                <a class="nav-link-lg" href="about.html">about</a>
+        </div>
+        <a class="nav-btn-lg" href="contact.html">contact us</a>
+    </header>
+
+    <div class="main-container">
+        <div class="contact-container">
+            <div class="contact-bg-tablet__1">
+                <img src="images/bg-pattern-about-2-contact-1.svg" alt="">
+            </div>
+            <div class="contact-intro">
+                <h1 class="contact-container__h1">Contact</h1>
+                <h2 class="contact-container__h2">Ask us about</h2>
+            </div>
+
+            <div class="contact-features__container">
+                <div class="contact-features">
+                    <img class="contact-features__img1" src="images/icon-person.svg" alt="">
+                    <p class="contact-features__p">
+                        The quality of our talent network
+                    </p>
+                </div>
+                <div class="contact-features">
+                    <img src="images/icon-cog.svg" alt="">
+                    <p class="contact-features__p">
+                        Usage & implementation of our software
+                    </p>
+                </div>
+                <div class="contact-features">
+                    <img src="images/icon-chart.svg" alt="">
+                    <p class="contact-features__p">
+                        How we help drive innovation
+                    </p>
+                </div>
+            </div>
+
+                <form class="form" name="form" action="submit" method="post">
+                    <p class="input-p__name">Name</p>
+                    <input class="input-name" type="text" name="name">
+                    <h4 class="error-message__name">This field is required</h4>
+
+                    <p class="input-p__email">Email Adress</p>
+                    <input class="input-email" type="text" name="email">
+                    <h4 class="error-message__email">This field is required</h4>
+                    <h4 class="error-message-2">Please use a valid email adress</h4>
+
+                    <p class="input-p__company">Company Name</p>
+                    <input type="text" name="company">
+
+                    <p class="input-p__title">Title</p>
+                    <input type="text" name="title">
+
+                    <p class="input-p__message">Message</p>
+                    <textarea class="textarea" name="message"></textarea>
+                    <h4 class="error-message__message">This field is required</h4>
+                    
+                     <button class="form-btn" value="submit">submit</button>
+                </form>
+
+                <div class="contact-bg__mobile">
+                    <img src="images/bg-pattern-contact-2.svg" alt="">
+                </div>
+                <div class="contact-bg-tablet__2">
+                    <img src="images/bg-pattern-contact-2.svg" alt="">
+                </div>
+        </div>
+
+        <footer class="contact-footer">
+            <div class="contact-footer__wrapper">
+                <a href="index.html">
+                    <img class="footer-logo" src="images/logo.svg">
+                </a>
+                <div class="nav-footer">
+                    <a class="footer-nav-link" href="index.html">home</a>
+                    <a class="footer-nav-link" href="about.html">about</a>
+                </div>
+                <div class="footer-contact-details">
+                    <p class="footer-contact__p">987  Hillcrest Lane</p>
+                    <p class="footer-contact__p">Irvine, CA</p>
+                    <p class="footer-contact__p">California 92714</p>
+                    <p class="footer-contact__p">Call Us : 949-833-7432</p>
+                </div>
+                <div class="footer-social-media">
+                    <img src="images/icon-facebook.svg" alt="">
+                    <img src="images/icon-pinterest.svg" alt="">
+                    <img src="images/icon-twitter.svg" alt="">
+                </div>
+                <p class="footer-copyright">Copyright 2020. All Rights Reserved</p>
+            </div>
+        </footer>
+
+    </div>
+
+    </body>
+    </html>

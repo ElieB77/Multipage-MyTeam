@@ -1,0 +1,294 @@
+@import './base';
+
+// H1 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+h1 {
+    font-family: $main-font;
+    line-height: $line-height__h1;
+}
+
+.h1-intro {
+    color: $white;
+    font-size: 40px;
+    width: 15rem;
+    margin: 0 auto .5em auto;
+    overflow: hidden;
+
+    span {
+        color: $light-coral;
+    }
+}
+
+.home-container-2__h1 {
+    color: $white;
+    line-height: $line-height-h1__2;
+    overflow: hidden;
+    font-size: 32px;
+}
+
+.home-container-3__h1 {
+    font-size: 32px;
+    color: $white;
+    text-align: center;
+    width: 20rem;
+    margin: 0 auto;
+    padding-top: 1em;
+
+    span {
+        color: $rapture-blue;
+    }
+}
+
+.home-container-4__h1 {
+    color: $sacramento-state-green;
+    font-size: 32px;
+    line-height: $line-height-h1__2;
+    margin-bottom: 1.1em;
+    overflow: hidden;
+}
+
+.about-intro__h1 {
+    font-size: 40px;
+    color: $white;
+    text-align: center;
+    margin-bottom: .5em;
+    overflow: hidden;
+}
+
+.about-container-2__h1 {
+    text-align: center;
+    color: $white;
+    font-size: 32px;
+    margin-top: -.5em;
+    margin-bottom: 1.5em;
+}
+
+.about-container-2-customers__h1 {
+    color: $white;
+    text-align: center;
+    font-size: 32px;
+    margin-top: -.6em;
+}
+
+.about-container-3__h1 {
+    color: $sacramento-state-green;
+    font-size: 32px;
+    line-height: $line-height-h1__2;
+    margin-bottom: 1.1em;
+    overflow: hidden;
+}
+
+.contact-container__h1 {
+    font-size: 40px;
+    color: $white;
+    text-align: center;
+    margin-bottom: .5em;
+    overflow: hidden;
+}
+
+
+// H2 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+h2 {
+    font-family: $main-font;
+}
+
+.card-success-story__h2 {
+    font-size: 18px;
+    color: $rapture-blue;
+    margin-bottom: .3em;
+}
+
+.directors-card__h2 {
+    font-size: 18px;
+    color: $rapture-blue;
+    margin-bottom: .2em;
+}
+
+.directors-back-card__h2 {
+    color: $rapture-blue;
+    font-size: 18px;
+    margin-top: 2em;
+    margin-bottom: .5em;
+}
+
+.contact-container__h2 {
+    font-size: 32px;
+    color: $light-coral;
+    text-align: center;
+}
+
+// H3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+h3 {
+    font-family: $main-font;
+}
+
+.cards-features__h3 {
+    color: $light-coral;
+    margin-bottom: .5em;
+    font-size: 18px;
+}
+
+.card-success-story__h3 {
+    font-size: 13px;
+    color: $white;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+.directors-card__h3 {
+    font-size: 15px;
+    color: $white;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: -20em;
+}
+
+// H4 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+.error-message__name {
+    color: $error-color;
+    font-size: 10px;
+    font-family: $main-font;
+    font-style: italic;
+    padding-left: 3.7em;
+    transform: translateY(-2em);
+    display: none;
+}
+
+.error-message__email {
+    color: $error-color;
+    font-size: 10px;
+    font-family: $main-font;
+    font-style: italic;
+    padding-left: 3.7em;
+    transform: translateY(-2em);
+    display: none;
+}
+
+.error-message__message {
+    color: $error-color;
+    font-size: 10px;
+    font-family: $main-font;
+    font-style: italic;
+    padding-left: 3.7em;
+    transform: translateY(-2em);
+    display: none;
+    
+}
+
+.error-message-2 {
+    color: $error-color;
+    font-size: 10px;
+    font-family: $main-font;
+    font-style: italic;
+    transform: translateY(-2em);
+    padding-left: 3.7em;
+    display: none;
+
+}
+
+// P $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+p {
+    font-family: $main-font;
+    color: $white;
+    line-height: $line-height__p;
+}
+
+.p-intro {
+    font-weight: 300;
+    width: 21rem;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.cards-features__p {
+    color: rgba($white, .8);
+    line-height: $line-height-p__2;
+    font-size: 15px;
+}
+
+.card-success-story__p {
+    font-size: 15px;
+    line-height: $line-height-p__2;
+    margin-top: -1.6em;
+    margin-bottom: 1.5em;
+}
+
+.footer-contact__p {
+    font-size: 15px;
+    color: rgba($white, .5);
+    line-height: $line-height-p__2;
+}
+
+.footer-copyright {
+    font-size: 15px;
+    color: rgba($white, .5);
+}
+
+.about-intro__p {
+    font-size: 15px;
+    color: $white;
+    width: 20rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: .5em;
+}
+
+.directors-back-card__p {
+    font-size: 15px;
+    line-height: $line-height-p__2;
+    width: 15rem;
+    margin: 0 auto;
+    margin-bottom: 1.3em;
+}
+
+.contact-features__p {
+    font-size: 18px;
+    width: 14rem;
+    line-height: $line-height-p__2;
+}
+
+.input-p__name {
+    color: rgba($white, .5);
+    font-size: 15px;
+    margin-left: 2.5em;
+}
+
+.input-p__email {
+    color: rgba($white, .5);
+    font-size: 15px;
+    margin-left: 2.5em;
+}
+
+.input-p__message {
+    color: rgba($white, .5);
+    font-size: 15px;
+    margin-left: 2.5em;
+}
+
+.input-p__title {
+    color: rgba($white, .5);
+    font-size: 15px;
+    margin-left: 2.5em;
+}
+
+.input-p__company {
+    color: rgba($white, .5);
+    font-size: 15px;
+    margin-left: 2.5em;
+}
+
+// A $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+a {
+    text-decoration: none;
+    font-family: $main-font;
+    color: $white;
+}
+
+.footer-nav-link {
+    font-size: 15px;
+    margin: 0 .8em 0 .8em;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,47 @@
+.nav-btn {
+  border: solid 2px white;
+  padding: .7em 2em;
+  border-radius: 30px;
+  position: absolute;
+  margin-top: .5em;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: #002529;
+}
+
+.home-container-4__btn {
+  border: solid 2px #012f34;
+  padding: .7em 2em;
+  border-radius: 30px;
+  color: #012f34;
+  text-align: center;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.home-container-4__btn:hover {
+  background-color: #012f34;
+  color: white;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.form-btn {
+  border-radius: 30px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  color: #004047;
+  background-color: white;
+  padding: .7em .5em;
+  text-align: center;
+  font-weight: 200;
+  font-family: "Livvic", sans-serif;
+  width: 7em;
+  font-size: 18px;
+  margin-left: 1em;
+  cursor: pointer;
+}
+/*# sourceMappingURL=buttons.css.map */

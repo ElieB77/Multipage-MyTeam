@@ -1,0 +1,45 @@
+// Colors
+$midnight-green: rgb(1, 78, 86);
+$light-coral: rgb(246, 126, 126);
+$white: rgb(255, 255, 255);
+$rapture-blue: rgb(121, 200, 199);
+$police-blue: rgb(44, 98, 105);
+$jungle-green: rgb(0, 64, 71);
+$sacramento-state-green:  rgb(1, 47, 52);
+$dark-green:  rgb(0, 37, 41);
+$light-blue: rgb(196, 255, 254);
+$error-color: rgb(246, 126, 126);
+
+// Font family
+$main-font: 'Livvic', sans-serif;
+
+// Line height
+$line-height__h1: 2.5rem;
+$line-height-h1__2: 2rem;
+$line-height__p: 2rem;
+$line-height-p__2: 1.7rem;
+
+// Transition
+@mixin transition-ease {
+    transition: all .5s ease-in-out;
+}
+
+// Breakpoints
+@mixin media-sm {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin media-md {
+    @media screen and (min-width: 768px) and (max-width: 1439px) {
+        @content;
+    }
+}
+
+@mixin media-lg {
+    @media screen and (min-width: 1440px) {
+        @content;
+    }
+}
+

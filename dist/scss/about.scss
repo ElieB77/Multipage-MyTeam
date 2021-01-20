@@ -1,0 +1,177 @@
+@import './base';
+
+.about-container__1 {
+    overflow: hidden;
+    height: 35rem;
+
+    .about-intro__text {
+        margin-top: 10.5em;
+    }
+
+    .about-intro__img {
+        float: right;
+        margin-right: -6.5em;
+        padding-bottom: -20em;
+    }
+}
+
+.about-container__2 {
+    background-color: $jungle-green;
+    overflow: hidden;
+    position: absolute;
+    width: 100vw;
+    
+
+    .about-container-2__img {
+        position: relative;
+        margin-top: -6.3rem;
+        margin-left: -6.3rem;
+    }
+
+    .directors-cards__container {
+        text-align: center;
+
+        .directors-card {
+            overflow: hidden;
+
+            .directors-front-card {
+                background-color: $sacramento-state-green;
+                width: 21rem;
+                margin: 0 auto 3em auto;
+                height: 15.2rem;
+                overflow: hidden;   
+
+                .directors-card__img {
+                    max-width: 100%;
+                    width: 6rem;
+                    border-radius: 50%;
+                    border: solid 3px $light-blue;
+                    margin: 1.7em 0 .7em 0;
+                }
+
+                .directors-card-img__2 {
+                    border-radius: 50%;
+                    padding: 1.2em;
+                    background-color: $light-coral;
+                    margin-top: 20.7em;
+                    position: absolute;
+                    left: 50%;
+                    transform: translate(-50%);
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $rapture-blue;
+                        @include transition-ease;
+                    }
+                }
+            }
+            
+            .directors-back-card {
+                width: 21rem;
+                background: $dark-green;
+                height: 15.2rem;
+                overflow: hidden;
+                margin: -18.2rem auto 3em auto;
+                display: none;
+                
+                
+                .directors-card-content__icons {
+                    padding-top: 1em;
+
+                    img {
+                        margin: 0 .4em 0 .4em;
+                    }
+                }
+
+                .directors-back-card__close {
+                    border-radius: 50%;
+                    padding: 1.2em;
+                    background-color: $rapture-blue;
+                    margin-top: 1.5em;
+                    position: absolute;
+                    left: 50%;
+                    transform: translate(-50%);
+                    transform: translateX(-50%) rotate(45deg);
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $light-coral;
+                        @include transition-ease;
+                    }
+                }
+
+                .directors-back-card__icons img {
+                    margin: 0 .4em;
+                    cursor: pointer;
+                    overflow: visible;
+                    
+                    &:hover {
+                        transform: translateX(.1rem);
+                        @include transition-ease;
+                    }
+                }
+            }
+        }
+    }
+    .about-container-2-img__2 {
+        float: right;
+        margin-top: -2em;
+    }
+
+    .about-container-2-customers {
+        background: $sacramento-state-green;
+        width: 100vw;
+        overflow: hidden;
+        top: -.25rem;
+        position: relative;
+
+        .about-container-2-customers__img {
+            margin-top: -6em;
+            margin-left: -6.3em;
+        }
+
+        .about-container-2-customers__container {
+            text-align: center;
+            width: 13rem;
+            margin: 2em auto 0 auto ;
+            padding-bottom: 3.5em;
+
+            img {
+                width: 9.5rem;
+                // max-width: 100%;
+                margin: 1.5em 0 1.5em 0;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .logo-gadget {
+                width: 5rem;
+            }
+        }
+    }
+
+    .about-container__3 {
+        background-color: $light-coral;
+        height: 18.3rem;
+        overflow: hidden;
+
+        .about-container-3__text {
+            width: 15rem;
+            text-align: center;
+            margin: 0 auto;
+            overflow: hidden;
+            padding: 5em 0 1em 0;
+            overflow: hidden;
+        }
+
+        .about-container-3__img {
+            margin-top: -2.8em;
+        }
+    }
+}
+
+.hide-front-card {
+    visibility: hidden;
+}
+
+
