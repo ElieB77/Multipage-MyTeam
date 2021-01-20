@@ -1,6 +1,9 @@
 @import './base';
 
 @include media-sm {
+    body {
+        display: none;
+    }
     .contact-bg__tablet {
         display: none;
     }
