@@ -889,6 +889,9 @@ footer .footer-social-media img:hover {
 
 @media screen and (max-width: 767px) {
   .contact-bg__tablet {
+    body {
+    display: none;
+    }
     display: none;
   }
   .hr-intro {
